@@ -1,0 +1,238 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    background-image: linear-gradient(rgba(158, 201, 247, 0.192), rgba(158, 201, 247, 0.192)), url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    /* height: 95vh; */
+    padding: 40px 60px 50px 60px;
+}
+
+.header__box {
+    /* padding: 40px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    height: 30px;
+}
+
+.header__view {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
+    /* position: absolute;
+    top: 40%; */
+    
+    width: 40%;
+
+}
+
+.text-main {
+    font-size: 37px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.text-main-2 {
+    font-size: 37px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text-sub {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+
+
+/* button */
+.img-bac {
+    /* s */
+    width: 600px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 55px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.159);
+
+    background-color: #fff;
+    color: #000;
+}
+
+.button2 {
+    text-decoration: none;
+    padding: 15px 55px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.159);
+
+    background-color: rgb(237, 133, 193);
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+.main {
+    padding-top: 130px;
+    padding-bottom: 255px;
+    position: relative;
+}
+
+.box {
+    box-shadow: 1px 1px 5px 2px rgba(7, 7, 7, .1);
+    border-radius: 15px;
+    padding: 40px 30px 40px 80px;
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-wrap {
+    box-shadow: 1px 1px 5px 2px rgba(7, 7, 7, .1);
+    border-radius: 15px;
+    padding: 40px 30px 40px 80px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.box:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.box__content {
+    width: 45%;
+}
+
+.box__headtext {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.box__img {
+    width: 350px;
+}
+
+.build {
+    background-color: #fff;
+    width: 45%;
+    text-align: center;
+    padding: 55px 0;
+    border-radius: 14px;
+    box-shadow: 1px 1px 5px 2px rgba(7, 7, 7, .1);
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.build__text {
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+.footer {
+    background-color: rgb(8, 31, 33);
+    /* background-color: rgb(17, 35, 36); */
+    padding: 140px 70px 55px 85px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    color: #fff;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__content { 
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__icon {
+    margin-right: 20px;
+}
+
+.footer__content:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.content__width {
+    width: 30%;
+}
+
+.footer__box:last-child {
+    width: 25%;
+}
+
+.footer__icon {
+    font-size: 30px;
+    transform: translateY(5px);
+}
+
+.footer__text {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.iconbox {
+    margin-bottom: 80px;
+}
+
+.social__icon {
+    height: 20px;
+    fill: #fff;
+}
